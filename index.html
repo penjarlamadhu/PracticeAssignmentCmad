@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="authour" content="Madhu">
+        <meta name="Desicripition" content="This page contain all i have leant in html">
+        <link rel="icon" href="/IMAGES/html-icon-3d-rendering-illustration-vector.jpg" type="image/x-icon">
+         <title> My first web page</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <h1>Hello Duddu!</h1>
+        <hr>
+        <h1> My Goals of the year!</h1>
+        <header>
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li>
+                        <a href="#html">html</a>
+                    </li>
+                    <li>
+                        <a href="#vaction">Planing for vaction</a>
+                    </li>
+                  <li>
+                     <a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+      </header>
+        <hr>
+        <main>
+            <article id="html">
+                <h2>I'm ready to learnt html</h2>
+                <p> this is my first web page</p>
+             <section>
+                <img src="IMAGES/html-icon-3d-rendering-illustration-vector.jpg" alt="html.png" title="Learnt HTML on my channel" width="200">
+                <figure>
+                    <figcaption>
+                        An Example of HTML5 code
+                    </figcaption>
+                    <p> <code>&lt;h1&gt; HELLO DUDDU! &lt;h1&gt;</code></p>
+                </figure>
+                </section>
+                <section>
+                <h3>My daily shaduile</h3>
+                <p> Let me tell you how :......</p>
+                <ol>
+                <li>I learnt more about web dev.</li>
+                <li>I plan out my schedule</li>
+                <li>I use resources form <abbr title="Mazilla developer netwok "> <a href="https://the-website-v04b.onrender.com/">MDN</a></abbr></li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Guess the <mark> number of hours </mark>Icode per day</summary>
+                        <p> I start at     <time datetime="8:00"> 8 am </time> and I write code for <time datetime="PT3H">3 hours</time> every morning.</p>
+                    </details>
+                </aside>
+                <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        <th>&nbsp;</th>
+                    <th>Time</th>
+                    <th>Action</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Morning</th>
+                        <td>
+                            <time datetime="8:00">8am</time>-<time datetime="11:00">11am</time>
+                        </td>
+                        <td>Write code</td>
+                    </tr>
+                    <tr>
+                        <th>Break</th>
+                        <td>
+                            <time datetime="11:00">8am</time>-<time datetime="12:00">12pm</time>
+                        </td>
+                        <td>Eat Lunch</td>
+                    </tr>
+                    <tr>
+                        <th>Afternoon</th>
+                        <td>
+                            <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                        </td>
+                        <td>Study for other courses</td>
+                    </tr>
+                    <tr>
+                        <th>Evening</th>
+                        <td rowspan="2">All Other Time</td>
+                        <td>Free Time</td>
+                    </tr>
+                    <tr>
+                        <th>Night</th>
+                        <td>Sleep</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3">And that's what I do every day, 5days a week. Just eat, sleep, code,..and recharge!</td>
+                </tfoot>
+                </table>
+            </section>
+         </article>
+                <hr>
+            <article id="vaction">
+                <h2>Planing for a trip </h2>
+                <figure>
+                <img src="IMAGES/beautiful-tropical-beach-sea-with-chair-blue-sky_74190-7488.avif" alt="beach" width="200">
+                <figcaption>Caribbean Beach Getaway</figcaption>
+            </figure>
+                <p> I've been working hard and really need a getaway.</p>
+                <p>i live in <abbr title="kashmir">KS</abbr> so I want visit a beach</p>
+                <section>
+                <h3>Place I'd Like to Visit</h3>
+                <ul>
+                <li> <p>I've heared good things about the Caribbean</p></li>
+                <li><p> I've heard good things about going here:</p>
+                <address>
+                    Margaritaville Island Reserve Riviera Cancim
+                    <br> Bahia petempich puerto Morelos , Mexico 
+                    <br>Colonia Morelos , Mexico 77580
+                </address> </li>
+                <img src="IMAGES/images.jpeg" alt="beach of Duddu" width="200">
+            </ul>
+          </section>
+                <!--TODO: ADD MORE PLACES -->
+            <section>
+                <h3>Place i want to avoid</h3>
+                <p> Anywhere cold. <strong> No Way!</strong>......</p>
+                <dl>
+                    <dt>North pole</dt>
+                    <dd>where the cool place</dd>
+                    <dt> south pole</dt>
+                    <dd>mountains and hills </dd>
+                </dl>
+            </section>
+          </article> 
+          
+          <hr>
+          <article id="contact">
+            <h2> Contact Me</h2>
+            <p>I'd really like to hear from you!</p>
+          <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Persnol InFo</legend>
+        <p>
+            <label for="firstName">First Name :</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Duddu" autocomplete="on" required autofocus>
+        </p>
+        <p>
+            <label for="lastName">Last Name :</label>
+            <input type="text" name="lastName" id="lastName" placeholder="last name" autocomplete="on" required >
+        </p>   
+        <p>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" placeholder="security" autocomplete="on" required >
+        </p>
+        <p>
+            <label for="phone">Phone :</label>
+            <input type="tel" name="phone" id="phone" placeholder="+9100******00" autocomplete="on" required >
+        </p>
+        <p>
+            <label for="frnds">Friends :</label>
+            <select name="frnds" id="frnds">
+                <option value="Aryan">Aryan</option>
+                <option value="Ajay">Ajay</option>
+                <option value="Bunny">Bunny</option>
+                <optgroup label="others">
+                <option value="Ranjith">Ranjith</option>
+                <option value="chintu">chintu</option>
+            </optgroup>
+            </select>
+        </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend> My fastions</legend>
+
+        <p>
+        <input type="radio" name="fastion" id="webdevp" value="webdevp">
+        <label for="webdevp">Web Developer</label>
+       </p>
+
+        <p>
+        <input type="radio" name="fastion" id="cyber" value="cyber">
+        <label for="cyber">Cyber Security</label>
+       </p>
+
+        <p>
+        <input type="radio" name="fastion" id="data" value="data">
+        <label for="data">Data Scientist</label>
+       </p>
+        <p>
+        <input type="radio" name="fastion" id="other" value="other">
+        <label for="other">Other</label>
+       </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>My pets </legend>
+        <p>
+            <input type="checkbox" name="pets" id="dog" value="dog">
+            <label for="dog">Dog</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="cat" value="cat">
+            <label for="cat">Cat</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="pets" id="horse" value="horse">
+            <label for="horse">Horse</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="pets" id="parrot" value="parrot">
+            <label for="parrot">Parrot</label>
+        </p>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend>Send Me A Note</legend>
+        <p>
+            <label for="message">Your Message :</label>
+        </p>git
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here....."></textarea>
+      </fieldset>
+        <br>
+            <button type="submit">Submit</button>
+            <button type="submit" formaction="hhtps://httpbin.org/post">Post</button>
+            <button type="reset">Reset</button>
+        </form>
+     </article>
+    </main>
+        <hr>
+        &lt;  &lt;  &lt; &copy; <a href="about.html">Duddu</a> &gt; &gt; &gt;
+        <p><a href="#">Back to top</a></p>
+    </body>
+</html>
